@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#top {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.904);
+    color: white;
+    text-align: center;
+}
+
+#top .top{
+    padding: 2px 5%;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+/* #top .top-two {
+    text-decoration: none;
+} */
+
+/* #top ul {
+    display: none;
+} */
+
+#top li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#top li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav:nth-child(1) {
+    display: flex;
+    padding: 11px 5%;
+    flex-direction: row;
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.657);
+    color: black;
+}
+
+header nav:nth-child(1) a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav:nth-child(1) ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    /* display: flex; */
+}
+
+header nav:nth-child(2) {
+    /* width: 90%;
+    height: 10%; */
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+header nav:nth-child(2) ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: rgba(17, 16, 16, 0.52);
+    /* height: 30px; */
+}
+
+header nav:nth-child(2) ul li {
+    display: inline-block;
+}
+
+header nav:nth-child(2) ul li a {
+    text-decoration: none;
+    padding-left: 17px;
+    color: white;
+}
+
+header nav:nth-child(2) ul .line a {
+    color: rgba(255, 166, 0, 0.904);
+}
+
+section {
+    background-image: url("./fecamp_3.jpg");
+    /* width: 100%; */
+    height: 73vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (min-width: 308px) {
+    
+}
+
+
