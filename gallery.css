@@ -1,6 +1,7 @@
 .slide-container {
-    width: 800px;
-    height: 650px;
+    width: 500px;
+    height: 450px;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -8,9 +9,10 @@
 }
 
 .image-container {
-    width: 1600px;
-    height: 1300px;
+    width: 1000px;
+    height: 900px;
     position: relative;
+    
     transition: left 2s;
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
@@ -42,9 +44,9 @@
 }
 
 #image-2:target ~ .image-container {
-    left: -800px;
+    left: -500px;
 }
 
 #image-3:target ~ .image-container {
-    left: -1600px;
+    left: -1000px;
 }
